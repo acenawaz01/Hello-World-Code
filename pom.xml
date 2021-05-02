@@ -22,6 +22,11 @@
   </modules>
 
   <distributionManagement>
+                  <repository>
+         <id>site-server</id>
+         <name>Test Project</name>
+         <url>http://3.143.211.167:8081/nexus/content/repositories/snapshots</url>
+       </repository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>

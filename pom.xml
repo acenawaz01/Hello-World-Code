@@ -25,7 +25,7 @@
                   <repository>
          <id>snapshots</id>
          <name>Test Project</name>
-         <url>http://3.143.211.167:8081/nexus/content/repositories/snapshots</url>
+         <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
        </repository>
   </distributionManagement>
 

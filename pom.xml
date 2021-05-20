@@ -19,19 +19,19 @@
   <modules>
     <module>server</module>
     <module>webapp</module>
-  </modules>
-
+  </modules>             
+         
   <distributionManagement>
-       <repository>
-         <id>snapshots</id>
-         <name>Test Project</name>
-         <url>http://localhost:8081/repository/maven-snapshots/</url>
-       </repository>
-       <repository>
-         <id>releases</id>
-         <name>Test Project</name>
-         <url>http://localhost:8081/repository/maven-releases/</url>
-       </repository>           
+   <repository>
+      <id>snapshots</id>
+      <name>Test Project</name>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
+    </repository>
+    <snapshotRepository>
+      <id>releases</id>
+      <name>Test Project</name>
+      <url>http://localhost:8081/repository/maven-releases/</url>
+    </snapshotRepository>       
   </distributionManagement>
 
   <build>

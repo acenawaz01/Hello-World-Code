@@ -22,11 +22,16 @@
   </modules>
 
   <distributionManagement>
-                  <repository>
+       <repository>
          <id>snapshots</id>
          <name>Test Project</name>
          <url>http://localhost:8081/repository/maven-snapshots/</url>
        </repository>
+       <repository>
+         <id>releases</id>
+         <name>Test Project</name>
+         <url>http://localhost:8081/repository/maven-releases/</url>
+       </repository>           
   </distributionManagement>
 
   <build>

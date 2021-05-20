@@ -28,7 +28,7 @@
       <url>http://localhost:8081/repository/maven-snapshots/</url>
     </repository>
     <snapshotRepository>
-      <id>releases</id>
+      <id>central</id>
       <name>Test Project</name>
       <url>http://localhost:8081/repository/maven-releases/</url>
     </snapshotRepository>       

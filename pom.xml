@@ -24,12 +24,12 @@
   <distributionManagement>
    <repository>
       <id>releases</id>
-      <name>Test Project</name>
+      <name>releases</name>
       <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <name>Test Project</name>
+      <name>snapshots</name>
       <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>       
   </distributionManagement>

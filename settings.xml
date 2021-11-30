@@ -5,12 +5,12 @@ http://maven.apache.org/xsd/settings-1.1.0.xsd">
    <servers>
       <server>
          <username>admin</username>
-         <password>admin123</password>
+         <password>admin</password>
          <id>central</id>
       </server>
       <server>
          <username>admin</username>
-         <password>admin123</password>
+         <password>admin</password>
          <id>snapshots</id>
       </server>
    </servers>
@@ -23,13 +23,13 @@ http://maven.apache.org/xsd/settings-1.1.0.xsd">
                </snapshots>
                <id>central</id>
                <name>maven-release</name>
-               <url>http://3.143.211.167:8081/nexus/content/repositories/releases</url>
+               <url>http://localhost:8081/repository/maven-releases/</url>
             </repository>
             <repository>
                <snapshots />
                <id>snapshots</id>
                <name>maven-snapshot</name>
-               <url>http://3.143.211.167:8081/nexus/content/repositories/snapshots/</url>
+               <url>http://localhost:8081/repository/maven-snapshots/</url>
             </repository>
          </repositories>
          <pluginRepositories>

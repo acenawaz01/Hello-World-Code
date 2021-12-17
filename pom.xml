@@ -30,7 +30,7 @@
     <snapshotRepository>
       <id>snapshots</id>
       <name>Test Project</name>
-      <url>http://52.91.46.76:8081/repository/maven-releases/</url>
+      <url>http://52.91.46.76:8081/repository/maven-snapshots/</url>
     </snapshotRepository>       
   </distributionManagement>
 

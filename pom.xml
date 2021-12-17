@@ -24,7 +24,7 @@
          
   <distributionManagement>
    <repository>
-      <id>releases</id>
+      <id>central</id>
       <name>Test Project</name>
       <url>http://52.91.46.76:8081/repository/maven-releases/</url>
     </repository>

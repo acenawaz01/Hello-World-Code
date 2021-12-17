@@ -25,12 +25,12 @@
    <repository>
       <id>releases</id>
       <name>Test Project</name>
-      <url>http://54.173.178.219:8081/nexus/content/repositories/releases</url>
+      <url>http://52.91.46.76:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
       <name>Test Project</name>
-      <url>http://54.173.178.219:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://52.91.46.76:8081/repository/maven-releases/</url>
     </snapshotRepository>       
   </distributionManagement>
 

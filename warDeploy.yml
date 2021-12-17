@@ -3,7 +3,7 @@
   vars:
   - warName: webapp.war
   - warRemotePath: /home/ec2-user/apache-tomcat-9.0.56/webapps
-  - warLocalPath: /var/lib/jenkins/workspace/TestJob/webapp/target/webapp.war
+  - warLocalPath: /var/lib/jenkins/workspace/TestJob/webapp/target
   tasks:
   - name: Download WAR to server
     synchronize: src={{ warLocalPath }}/{{ warName }} dest={{ warRemotePath }}/{{ warName }}
